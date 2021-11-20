@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'SitkaBanner';
+  src: url('../fonts/novo/SitkaBanner.eot');
+  src: url('../fonts/novo/SitkaBanner.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/novo/SitkaBanner.svg#SitkaBanner') format('svg'),
+       url('../fonts/novo/SitkaBanner.ttf') format('truetype'),
+       url('../fonts/novo/SitkaBanner.woff') format('woff'),
+       url('../fonts/novo/SitkaBanner.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SitkaDisplay';
+  src: url('../fonts/novo/SitkaDisplay.eot');
+  src: url('../fonts/novo/SitkaDisplay.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/novo/SitkaDisplay.svg#SitkaDisplay') format('svg'),
+       url('../fonts/novo/SitkaDisplay.ttf') format('truetype'),
+       url('../fonts/novo/SitkaDisplay.woff') format('woff'),
+       url('../fonts/novo/SitkaDisplay.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SitkaHeading';
+  src: url('SitkaHeading.eot');
+  src: url('SitkaHeading.eot?#iefix') format('embedded-opentype'),
+       url('SitkaHeading.svg#SitkaHeading') format('svg'),
+       url('SitkaHeading.ttf') format('truetype'),
+       url('SitkaHeading.woff') format('woff'),
+       url('SitkaHeading.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SitkaSmall';
+  src: url('SitkaSmall.eot');
+  src: url('SitkaSmall.eot?#iefix') format('embedded-opentype'),
+       url('SitkaSmall.svg#SitkaSmall') format('svg'),
+       url('SitkaSmall.ttf') format('truetype'),
+       url('SitkaSmall.woff') format('woff'),
+       url('SitkaSmall.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SitkaSubheading';
+  src: url('SitkaSubheading.eot');
+  src: url('SitkaSubheading.eot?#iefix') format('embedded-opentype'),
+       url('SitkaSubheading.svg#SitkaSubheading') format('svg'),
+       url('SitkaSubheading.ttf') format('truetype'),
+       url('SitkaSubheading.woff') format('woff'),
+       url('SitkaSubheading.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SitkaText';
+  src: url('SitkaText.eot');
+  src: url('SitkaText.eot?#iefix') format('embedded-opentype'),
+       url('SitkaText.svg#SitkaText') format('svg'),
+       url('SitkaText.ttf') format('truetype'),
+       url('SitkaText.woff') format('woff'),
+       url('SitkaText.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

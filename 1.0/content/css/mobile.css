@@ -1,0 +1,268 @@
+
+@media(min-width: 1200px) and (max-width: 1600px) {
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .box-slide {
+        padding: 250px 0 180px 0;
+    }
+    .slide-cursos-contador h3 {
+        font-size: 400px;
+        line-height: 260px;
+        margin-left: 35px;
+    }
+    .objetivo-texto {
+        padding: 80px 0 80px 0;
+    }
+
+    /**/
+    .i-am-centered {
+        max-width: 88%;
+    }
+    .curriculo-opcao {
+        height: 300px;
+    }
+    
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .logo {
+        width: 175px;
+        padding-left: 30px;
+    }
+    .nav>li>a {
+       padding: 10px;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+       font-size: 14px;
+    }
+    .logo {
+        padding-left: 0;
+        width: 140px;
+    }
+    .box-slide {
+        padding: 200px 0 150px 0;
+    }
+    i.icon-chapeu {
+        height: 100px;
+        background-size: 95px;
+    }
+    .box-slide h2 {
+        font-size: 30px;
+    }
+    .box-slide p {
+        font-size: 31px;
+    }
+    .box-slide p b {
+        font-size: 35px;
+    }
+
+    .img-objetivo img {
+        width: 55%;
+    }
+
+    .objetivo-texto {
+        padding: 100px 35px 80px 35px;
+    }
+    
+     /**/
+     .i-am-centered {
+        max-width: 100%;
+    }
+    .curriculo-opcao {
+        height: 300px;
+        margin: 0;
+    }
+}
+
+@media(min-width: 541px) and (max-width: 767px) {
+}
+
+@media(min-width: 0px) and (max-width: 540px) {
+    .experiencia-data i{
+        display: none !important
+    }
+}
+
+@media(min-width: 0px) and (max-width: 767px) {
+    
+    .titulo-contato h4 {
+        font-size: 30px;
+    }
+    
+    .logo {
+        width: 175px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #fff;
+        margin: 44px 44px 0 0px;
+        z-index: 1;
+    }
+    .navbar-default .navbar-toggle:focus, 
+    .navbar-default .navbar-toggle:hover {
+        background-color: #fff0;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
+        background: #30093e;
+        height: -webkit-fill-available;
+        position: fixed;
+        padding-top: 135px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .navbar-nav {
+        float: none;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+      width: 140px;
+    }
+    .box-slide {
+        padding: 200px 0 150px 0;
+    }
+    i.icon-chapeu {
+        height: 100px;
+        background-size: 95px;
+    }
+    .box-slide h2 {
+        font-size: 25px;
+    }
+    .box-slide p {
+        font-size: 23px;
+    }
+    .box-slide p b {
+        font-size: 26px;
+    }
+
+    /***/
+    .curriculo-opcao {
+       height: 280px;
+       margin-bottom: 10px;
+    }
+
+    .icon-objetivo,
+    .icon-experiencia,
+    .icon-conhecimentos {
+        margin: 50px 0 22px 0;
+    }
+
+    .img-objetivo img {
+        width: 85%;
+    }
+
+    .objetivo-texto {
+        padding: 100px 35px 80px 35px;
+    }
+
+    .objetivo-texto {
+        padding: 100px 0px 80px 0;
+    }
+
+    /**/
+    .i-am-centered {
+        max-width: 100%;
+    }
+
+}
+
+@media(min-width: 0px) and (max-width: 991px) { 
+    .titulo-curriculo h1 {
+        font-size: 52px;
+    }
+
+    .titulo-curriculo h1 span {
+        font-size: 35px;
+        padding-top: 35px;
+    }
+
+    .curriculo-opcao h2 {
+        font-size: 19px;
+    }
+
+    /******/
+
+    .experiencia-data h1{
+        display: none
+    }
+
+    .experiencia-data h2 {
+        margin: 0;
+        text-align: center;
+        font-size: 95px;
+    }
+
+    .experiencia-data i {
+        float: none;
+        position: absolute;
+        left: 57%;
+        right: 0;
+        display: block;
+        margin: 0 auto;
+        margin: -50px 0 0px 50px
+    }
+
+    .experiencia-texto h1,
+    .experiencia-texto p{
+        text-align: center
+    }
+
+    .experiencia-texto{
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .conhecimento-titulo-cursos span{
+        display: none
+    }
+
+    .conhecimento-titulo-cursos h2 {
+       margin-left: 0;
+    }
+
+    .slide-cursos-contador h3 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .slide-cursos-contador h3 {
+        margin-top: 152px;
+    }
+    .slide-cursos-texto {
+        margin-top: 55px;
+    }
+
+    .slide-cursos-texto p {
+        text-align: center;
+    }
+
+    .titulo-lado-designer span{
+        display:none
+    }
+    .titulo-lado-designer h2 {
+        font-size: 30px;
+    }
+
+    /***/
+
+    .box-slide h2:before {
+        width: 40px;
+        height: 59px;
+        margin: -44px 0 0 -40px;
+        background-size: 40px;
+    }
+
+    .box-slide h2:after {
+        width: 40px;
+        height: 59px;
+        margin: -44px 0 0 0px;
+        background-size: 40px;
+    }
+
+}		

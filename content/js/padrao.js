@@ -1,8 +1,8 @@
-$(document).on('ready', function() {
+$(document).on('ready', function () {
 
     var o = $(".regular");
-    $(document).ready(function () { 
-        o.slick({ 
+    $(document).ready(function () {
+        o.slick({
             arrows: false,
             dots: true,
             infinite: true,
@@ -10,104 +10,81 @@ $(document).on('ready', function() {
             slidesToScroll: 1,
             speed: 500,
             fade: true,
+            customPaging: function (slider, i) {
+                var thumb = jQuery(slider.$slides[i]).data();
+                return '<a>' + (i + 1) + '</a>';
+            },
             cssEase: 'linear'
-        }), o.slickAnimation() 
+        }), o.slickAnimation()
     });
 
-    $(".slide-cursos").slick({
-        dots: true,
-        infinite: true,
+    var p = $(".slide-servicos");
+    $(document).ready(function () {
+        p.slick({
+            arrows: false,
+            dots: false,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode: true,
+            variableWidth: true,
+            focusOnSelect: true,
+            centerPadding: '60px',
+        }), p.slickAnimation()
+    });
+
+    $('.design-slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        speed: 500,
         fade: true,
-        cssEase: 'linear',
-        autoplay: true,
-        autoplaySpeed: 3000,
+        asNavFor: '.design-slider-nav'
     });
-
-    $(".slide-cursos-conhecimento").slick({
+    $('.design-slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.design-slider-for',
         dots: false,
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 4,
         arrows: false,
-        //autoplay: true,
-        //autoplaySpeed: 2000,
+        focusOnSelect: true,
         responsive: [{
-            breakpoint: 1199,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-            }
-        }, {
-            breakpoint: 992,
+            breakpoint: 767,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
             }
-        }, {
-            breakpoint: 530,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            }
+       
         }]
     });
 
-  
-      $(".slide-lado-designer").slick({
-          dots: false,
-          infinite: true,
-          slidesToShow: 4,
-          slidesToScroll: 4,
-          arrows: false,
-          responsive: [{
-              breakpoint: 1199,
-              settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 1,
-              }
-          }, {
-              breakpoint: 991,
-              settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 1,
-              }
-          }, {
-              breakpoint: 540,
-              settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1,
-              }
-          }]
-      });
+    $('.desen-slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.desen-slider-nav'
+    });
+    $('.desen-slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.desen-slider-for',
+        dots: false,
+        arrows: false,
+        focusOnSelect: true,
+        responsive: [{
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+            }
+       
+        }]
+    });
 
-    
 });
 
-$(document).ready(function() {
-    $(".curriculo-opcao").click(function() {
-        var item = $(this).attr("id");
-        $(".opcao").removeClass("ativo");
-        $("." + item).addClass("ativo");
-    });
-
-    $(".curriculo-opcao").hover(function() {
-        $('.curriculo-opcao').removeClass("ativo");
-        $(this).addClass("ativo");
-    });
-
-    $("#conhecimento").click(function () {
-        $('.slide-cursos').slick('resize');
-    });
-
-    $("#conhecimento").click(function () {
-        $('.slide-cursos-conhecimento').slick('resize');
-    });
-
-    $('.navbar-nav a[href^="#"], .objetivo-texto a[href^="#"]').on('click', function(e) {
+$(document).ready(function () {
+    $('.navbar-nav a[href^="#"], .objetivo-texto a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         var id = $(this).attr('href'),
             targetOffset = $(id).offset().top;
@@ -117,8 +94,9 @@ $(document).ready(function() {
         }, 500);
     });
 
-    $(".navbar-nav li a").click(function() {
+    $(".navbar-nav li a").click(function () {
         $(".navbar-collapse.collapse").removeClass("in");
-    }); 
-
+    });
 });
+
+ 
