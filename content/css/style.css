@@ -155,7 +155,8 @@
     padding: 65px 45px 0 0px;
 }
 
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
     color: white;
 }
 
@@ -244,6 +245,7 @@
     margin-top: -302px;
 }
 
+
 /*-*/
 
 .box-slide .efeitos h3.three {
@@ -256,6 +258,7 @@
     margin-top: 87px;
     margin-left: -568px;
 }
+
 
 /*+*/
 
@@ -270,6 +273,7 @@
     margin-right: -409px;
 }
 
+
 /*x*/
 
 .box-slide .efeitos h3.four {
@@ -282,6 +286,7 @@
     font-family: 'Insanibc';
     margin-right: -496px;
 }
+
 
 /*o*/
 
@@ -529,17 +534,20 @@ li.slide-conhecimento-box {
     margin-top: -24px;
 }
 
-.design-slider-for .box, .desen-slider-for .box {
+.design-slider-for .box,
+.desen-slider-for .box {
     background: #000000;
     height: 645px;
 }
 
-.design-slider-for .box:hover p, .desen-slider-for .box:hover p {
+.design-slider-for .box:hover p,
+.desen-slider-for .box:hover p {
     display: block;
     cursor: pointer;
 }
 
-.design-slider-for .box p, .desen-slider-for .box p {
+.design-slider-for .box p,
+.desen-slider-for .box p {
     display: none;
     position: absolute;
     top: 0;
@@ -551,14 +559,16 @@ li.slide-conhecimento-box {
     margin: 44% 0;
 }
 
-.design-slider-for .box p svg, .desen-slider-for .box p svg {
+.design-slider-for .box p svg,
+.desen-slider-for .box p svg {
     width: 52px;
     position: absolute;
     height: 52px;
     margin-left: -57px;
 }
 
-.design-slider-for .box img, .desen-slider-for .box img {
+.design-slider-for .box img,
+.desen-slider-for .box img {
     opacity: 0.1;
     display: block;
     filter: grayscale(1);
@@ -572,7 +582,8 @@ li.slide-conhecimento-box {
     transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
 }
 
-.design-slider-for .box:hover img, .desen-slider-for .box:hover img {
+.design-slider-for .box:hover img,
+.desen-slider-for .box:hover img {
     opacity: 0.1;
     display: block;
     filter: inherit;
@@ -598,7 +609,7 @@ li.slide-conhecimento-box {
     overflow: hidden;
 }
 
-.design-slider-nav .box p ,
+.design-slider-nav .box p,
 .desen-slider-nav .box p {
     font-family: 'berlinsans';
     color: #757575;
@@ -676,7 +687,7 @@ li.slide-conhecimento-box {
     left: 0;
     background: none;
     justify-content: center;
-    z-index: 2;
+    z-index: 0;
 }
 
 .speed-1 {
@@ -836,7 +847,10 @@ li.slide-conhecimento-box {
     float: right;
 }
 
-.line, .line2, .line3, .line4 {
+.line,
+.line2,
+.line3,
+.line4 {
     position: absolute;
     background: white;
 }
@@ -972,6 +986,7 @@ li.slide-conhecimento-box {
     margin-top: 27px;
 }
 
+
 /* Hamburger Menu */
 
 .McButton {
@@ -1005,13 +1020,16 @@ li.slide-conhecimento-box {
     top: 100%;
 }
 
-button.navbar-toggle.collapsed, .navbar-default .navbar-toggle {
+button.navbar-toggle.collapsed,
+.navbar-default .navbar-toggle {
     border: none;
 }
 
+
 /* McButton */
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
     background: transparent !important;
 }
 
@@ -1019,19 +1037,21 @@ button.navbar-toggle.collapsed, .navbar-default .navbar-toggle {
     transition: height 0.01s;
 }
 
-.navbar-nav{
+.navbar-nav {
     border: none;
 }
 
-.bg-menu{
+.bg-menu {
     transition: 1s;
     background: #2b2b2b;
 }
-.bg-menu2{
+
+.bg-menu2 {
     transition: 2s;
     background: #0a0a0a;
 }
-.bg-menu3{
+
+.bg-menu3 {
     transition: 3s;
     background: #ff0048;
 }
@@ -1052,22 +1072,24 @@ button.navbar-toggle.collapsed, .navbar-default .navbar-toggle {
     left: 0;
 }
 
-.navbar-collapse.in .bg-menu{
+.navbar-collapse.in .bg-menu {
     transition: height 2s;
     height: 96vh;
 }
-.navbar-collapse.in .bg-menu2{
+
+.navbar-collapse.in .bg-menu2 {
     transition: height 3;
     height: 88vh;
     z-index: -1;
-} 
-.navbar-collapse.in .bg-menu3{
+}
+
+.navbar-collapse.in .bg-menu3 {
     transition: height 1s;
     height: 100vh;
 }
 
 .navbar-collapse.in .bg-menu,
-.navbar-collapse.in .bg-menu2, 
+.navbar-collapse.in .bg-menu2,
 .navbar-collapse.in .bg-menu3 {
     width: 100%;
     border-radius: 0;
@@ -1076,5 +1098,3 @@ button.navbar-toggle.collapsed, .navbar-default .navbar-toggle {
     left: 0;
     right: 0px;
 }
-
- 
